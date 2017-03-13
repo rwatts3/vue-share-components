@@ -3,6 +3,7 @@ import Test from './components/Test.vue'
 // Install the components
 export function install (Vue) {
   Vue.component('test', Test)
+  Vue.element('test', Test)
   /* -- Add more components here -- */
 }
 
